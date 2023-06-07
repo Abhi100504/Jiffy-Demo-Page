@@ -1,0 +1,43 @@
+.image-container {
+    position: absolute;
+    display: flex;
+    /*justify-content: center; /* horizontally center the image */
+    align-items: center; /* vertically center the image */
+    height: 100vh; /* adjust the height of the container */
+}
+
+.icon {
+  position: absolute;
+  display: flex;
+  /*justify-content: center; /* horizontally center the image */
+  align-items: center; /* vertically center the image */
+  height: 100vh; /* adjust the height of the container */
+}
+
+
+.video-container {
+    /*justify-content: center;*/
+    align-items: center;
+    height: 100vh; /* adjust the height of the container */
+  }
+
+#textBox1 {
+    position: absolute;
+    top: 529px; /* Adjust the top position */
+    left: 797px; /* Adjust the left position */
+    white-space: nowrap;
+    color: #285847;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: bold;
+}
+#textBox2 {
+  position: absolute;
+  top: 530px; /* Adjust the top position */
+  left: 786px; /* Adjust the left position */
+  color: #6D6D6D;
+  font-family: "Nunito Sans", sans-serif;
+  width: 400px; /* Set the desired width */
+  text-align: left;
+  line-height: 1.4; /* Set the desired line height */
+  padding: 10px; /* Add padding to the text box */
+}
